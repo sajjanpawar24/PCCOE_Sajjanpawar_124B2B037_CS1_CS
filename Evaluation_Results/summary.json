@@ -1,0 +1,10 @@
+{
+  "mode": "extractive",
+  "total_questions": 30,
+  "answerable_questions": 28,
+  "retrieval_hit_rate_pct": 96.4,
+  "answer_accuracy_pct": 78.6,
+  "citation_accuracy_pct": 78.6,
+  "unanswerable_questions": 2,
+  "correct_refusal_pct": 100.0
+}

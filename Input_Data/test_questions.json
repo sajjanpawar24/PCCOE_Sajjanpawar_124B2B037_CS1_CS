@@ -1,0 +1,447 @@
+[
+  {
+    "id": 1,
+    "question": "Which AUTOSAR platform and release does the BCM use?",
+    "expected_answer": "AUTOSAR Classic Platform R21-11",
+    "must_include": [
+      [
+        "classic"
+      ],
+      [
+        "r21-11"
+      ]
+    ],
+    "pages": [
+      2
+    ],
+    "answerable": true
+  },
+  {
+    "id": 2,
+    "question": "How many software components are in the application layer?",
+    "expected_answer": "Five",
+    "must_include": [
+      [
+        "five",
+        "5"
+      ]
+    ],
+    "pages": [
+      2,
+      3
+    ],
+    "answerable": true
+  },
+  {
+    "id": 3,
+    "question": "What is the runnable period of DoorLockManager?",
+    "expected_answer": "10 ms",
+    "must_include": [
+      [
+        "10 ms"
+      ]
+    ],
+    "pages": [
+      3,
+      4
+    ],
+    "answerable": true
+  },
+  {
+    "id": 4,
+    "question": "Which team owns LightingController?",
+    "expected_answer": "Lighting Team",
+    "must_include": [
+      [
+        "lighting team"
+      ]
+    ],
+    "pages": [
+      3
+    ],
+    "answerable": true
+  },
+  {
+    "id": 5,
+    "question": "What bit rate does the body CAN bus use?",
+    "expected_answer": "500 kbit/s",
+    "must_include": [
+      [
+        "500"
+      ]
+    ],
+    "pages": [
+      3,
+      9
+    ],
+    "answerable": true
+  },
+  {
+    "id": 6,
+    "question": "What does DoorLockManager do when CrashDetected is set?",
+    "expected_answer": "Unlocks all doors within 100 ms",
+    "must_include": [
+      [
+        "unlock"
+      ],
+      [
+        "100 ms"
+      ]
+    ],
+    "pages": [
+      4
+    ],
+    "answerable": true
+  },
+  {
+    "id": 7,
+    "question": "At what vehicle speed are the doors locked automatically?",
+    "expected_answer": "Above 10 km/h",
+    "must_include": [
+      [
+        "10 km/h"
+      ]
+    ],
+    "pages": [
+      4
+    ],
+    "answerable": true
+  },
+  {
+    "id": 8,
+    "question": "Which NvM block stores the door lock state?",
+    "expected_answer": "NvM_DoorLockState",
+    "must_include": [
+      [
+        "nvm_doorlockstate"
+      ]
+    ],
+    "pages": [
+      4,
+      12
+    ],
+    "answerable": true
+  },
+  {
+    "id": 9,
+    "question": "How long does the window motor reverse after anti-pinch detection?",
+    "expected_answer": "200 ms",
+    "must_include": [
+      [
+        "200 ms"
+      ]
+    ],
+    "pages": [
+      5
+    ],
+    "answerable": true
+  },
+  {
+    "id": 10,
+    "question": "Below which battery voltage is window operation disabled?",
+    "expected_answer": "9 V",
+    "must_include": [
+      [
+        "9 v"
+      ]
+    ],
+    "pages": [
+      5
+    ],
+    "answerable": true
+  },
+  {
+    "id": 11,
+    "question": "What are the lux thresholds for automatic headlights?",
+    "expected_answer": "On below 400 lux, off above 800 lux",
+    "must_include": [
+      [
+        "400"
+      ],
+      [
+        "800"
+      ]
+    ],
+    "pages": [
+      6,
+      11
+    ],
+    "answerable": true
+  },
+  {
+    "id": 12,
+    "question": "What is the turn indicator flash frequency?",
+    "expected_answer": "1.5 Hz",
+    "must_include": [
+      [
+        "1.5 hz"
+      ]
+    ],
+    "pages": [
+      6
+    ],
+    "answerable": true
+  },
+  {
+    "id": 13,
+    "question": "What happens to the indicator flash rate when a bulb fails?",
+    "expected_answer": "It doubles to 3 Hz",
+    "must_include": [
+      [
+        "3 hz",
+        "doubles"
+      ]
+    ],
+    "pages": [
+      6
+    ],
+    "answerable": true
+  },
+  {
+    "id": 14,
+    "question": "What are the BCM power modes?",
+    "expected_answer": "SLEEP, STANDBY and RUN",
+    "must_include": [
+      [
+        "sleep"
+      ],
+      [
+        "standby"
+      ],
+      [
+        "run"
+      ]
+    ],
+    "pages": [
+      7
+    ],
+    "answerable": true
+  },
+  {
+    "id": 15,
+    "question": "How long does the BCM stay in RUN after ignition off?",
+    "expected_answer": "30 seconds",
+    "must_include": [
+      [
+        "30 s"
+      ]
+    ],
+    "pages": [
+      7
+    ],
+    "answerable": true
+  },
+  {
+    "id": 16,
+    "question": "What interface type is the port Pp_BcmMode?",
+    "expected_answer": "Mode-Switch",
+    "must_include": [
+      [
+        "mode-switch",
+        "mode switch"
+      ]
+    ],
+    "pages": [
+      8
+    ],
+    "answerable": true
+  },
+  {
+    "id": 17,
+    "question": "Which component consumes the port Rp_AmbientLux?",
+    "expected_answer": "LightingController",
+    "must_include": [
+      [
+        "lightingcontroller"
+      ]
+    ],
+    "pages": [
+      8
+    ],
+    "answerable": true
+  },
+  {
+    "id": 18,
+    "question": "What is the CAN ID of the ACU_Crash message?",
+    "expected_answer": "0x0C5",
+    "must_include": [
+      [
+        "0x0c5"
+      ]
+    ],
+    "pages": [
+      9
+    ],
+    "answerable": true
+  },
+  {
+    "id": 19,
+    "question": "What is the cycle time of the DoorLockStatus signal?",
+    "expected_answer": "100 ms",
+    "must_include": [
+      [
+        "100 ms"
+      ]
+    ],
+    "pages": [
+      9
+    ],
+    "answerable": true
+  },
+  {
+    "id": 20,
+    "question": "How long is the lock actuator pulse in the central-locking flow?",
+    "expected_answer": "400 ms",
+    "must_include": [
+      [
+        "400 ms"
+      ]
+    ],
+    "pages": [
+      10,
+      13
+    ],
+    "answerable": true
+  },
+  {
+    "id": 21,
+    "question": "What happens in central locking if a door is open?",
+    "expected_answer": "Lock request is rejected and a warning chime is requested",
+    "must_include": [
+      [
+        "reject",
+        "not be locked",
+        "refus"
+      ]
+    ],
+    "pages": [
+      10
+    ],
+    "answerable": true
+  },
+  {
+    "id": 22,
+    "question": "What does the BCM do if the ambient light sensor is faulty?",
+    "expected_answer": "Low beam is switched on by default",
+    "must_include": [
+      [
+        "low beam"
+      ]
+    ],
+    "pages": [
+      11
+    ],
+    "answerable": true
+  },
+  {
+    "id": 23,
+    "question": "Which BSW modules does BcmDiagnostics depend on?",
+    "expected_answer": "Dcm, Dem, Com",
+    "must_include": [
+      [
+        "dcm"
+      ],
+      [
+        "dem"
+      ],
+      [
+        "com"
+      ]
+    ],
+    "pages": [
+      12
+    ],
+    "answerable": true
+  },
+  {
+    "id": 24,
+    "question": "How many cyclic OS tasks does the BCM have?",
+    "expected_answer": "Four",
+    "must_include": [
+      [
+        "four",
+        "4"
+      ]
+    ],
+    "pages": [
+      12
+    ],
+    "answerable": true
+  },
+  {
+    "id": 25,
+    "question": "Which DTC is set when communication with the ESC is lost?",
+    "expected_answer": "0xC10001",
+    "must_include": [
+      [
+        "0xc10001"
+      ]
+    ],
+    "pages": [
+      13
+    ],
+    "answerable": true
+  },
+  {
+    "id": 26,
+    "question": "Which UDS service reads DTC information?",
+    "expected_answer": "0x19 ReadDTCInformation",
+    "must_include": [
+      [
+        "0x19"
+      ]
+    ],
+    "pages": [
+      13
+    ],
+    "answerable": true
+  },
+  {
+    "id": 27,
+    "question": "What is open issue OI-01?",
+    "expected_answer": "Confirm the anti-pinch force threshold with the supplier",
+    "must_include": [
+      [
+        "anti-pinch"
+      ],
+      [
+        "threshold"
+      ]
+    ],
+    "pages": [
+      14
+    ],
+    "answerable": true
+  },
+  {
+    "id": 28,
+    "question": "What is the date of the approved version 1.0?",
+    "expected_answer": "2026-09-15",
+    "must_include": [
+      [
+        "2026-09-15"
+      ]
+    ],
+    "pages": [
+      1,
+      14
+    ],
+    "answerable": true
+  },
+  {
+    "id": 29,
+    "question": "What is the current limit of the wiper motor?",
+    "expected_answer": "Not in document (wipers are out of scope)",
+    "must_include": [],
+    "pages": [],
+    "answerable": false
+  },
+  {
+    "id": 30,
+    "question": "Which Ethernet switch chip does the BCM use?",
+    "expected_answer": "Not in document",
+    "must_include": [],
+    "pages": [],
+    "answerable": false
+  }
+]

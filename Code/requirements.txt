@@ -1,0 +1,6 @@
+pdfplumber
+reportlab
+chromadb
+sentence-transformers
+requests
+streamlit
